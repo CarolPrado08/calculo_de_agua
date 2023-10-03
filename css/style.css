@@ -1,0 +1,114 @@
+
+
+body{
+    background-image: url(../img/bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: max-content;
+    font-family: 'Cardo', serif;
+}
+
+h1{
+    color: #000;
+    text-align: center;
+    margin-bottom: 5px;
+    margin-top: 30px;
+}
+
+#resp{
+    display: none;
+    padding: 2px;
+    margin: 0 auto;
+    background-color: rgb(167, 176, 224);
+    width: max-content;
+    border-radius: 5px;
+    color: #000;
+    font-size: 18px;
+}
+
+#container{
+    font-family: 'Lato', sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    text-align: center;
+    font-size: 16px;
+
+    border-radius: 25px;
+    margin: auto;
+    margin-top: 40px;
+    width: 440px;
+    height: 320px;
+    padding-top: 25px ;
+    background-color: rgb(203, 219, 243);
+}
+
+#container label{
+
+    font-size: 22px;
+    color: #000000;
+}
+
+input{
+    width: 190px;
+    height: 25px;
+    margin: 0 auto;
+    border-radius: 25px;
+}
+
+.botao{
+    margin: 0 auto;
+    width: 150px;
+    border-radius: 25px;
+    font-size: 18px;
+    padding: 5px;
+    margin-top: 15px;
+    background-color: rgb(90, 124, 193);
+    transition: transform .2s ease-in-out;
+
+}
+
+.botao:hover{
+
+    transform: scale(1.1);
+}
+
+
+/* Informações importantes  */
+
+.container-infos{
+    max-width: 500px;
+    background-color: #fff;
+    margin: auto;
+}
+
+.title_paragrafo{
+    text-align: center;
+}
+
+.paragrafo{
+    font-family: 'Times New Roman', Times, serif;
+    text-align: justify;
+    line-height: 1.4;
+}
+
+span{
+    font-weight: bold;
+}
+
+/* Celulares */
+
+@media (max-width: 600px) {
+    #container{
+    margin-top: 40px;
+    width: 300px;
+    height: 350px;
+    }
+    #container label{
+    font-size: 22px;
+}
+
+}
+
+

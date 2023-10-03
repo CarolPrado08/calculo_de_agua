@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cardo&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/style.css">
+    <script src="JS/copos_agua.js"></script>
+   
+    <title>Calculadora de Copos de água</title>
+
+</head>
+<body>
+
+    <h1>Descubra quantos litros de água (por dia) você precisa beber:</h1>
+
+     <div id="container">
+        <div id="resp"></div>
+        <div id="classificar"></div>
+
+        <label>Qual é o seu peso? (ex: 75)</label>
+        <input type="number" id="num_1">
+
+        <button  class="botao" onclick="calcular()">Calcular</button>
+    </div>
+
+   <div class="container-infos">
+    <h2 class="title_paragrafo">Informações importantes</h2>
+    <p class="paragrafo">
+        <span>Quanto de água devo tomar?</span> 
+        <br>
+        Em média, um adulto precisa beber 2 litros de água por dia. Mas não tem uma fórmula única para todo mundo! Portanto, a quantidade pode variar conforme o peso ou se a pessoa faz algum esporte, por exemplo.
+        <br><br>
+        É possível fazer este cálculo individual no qual multiplicamos 35 ml pelo peso do seu corpo. Por exemplo: uma pessoa que pesa 55 quilos deve tomar pelo menos 1,9 litro diariamente. E é esse cálculo que foi utilizado neste programa.
+    </p>
+    </div>
+    
+</body>
+</html>
